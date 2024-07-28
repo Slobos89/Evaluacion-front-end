@@ -1,10 +1,12 @@
 import { NavLink } from "react-router-dom"
+import "./style.css"
 
 export const Navbar = () => {
+  const src="/assets/heroes/logo-dead-pool.png"
   return (
   <nav className="navbar navbar-expand-sm bg-dark navbar-dark mb-5">
     <div className="container-fluid">
-      <a className="navbar-brand" href="#">Logo</a>
+      <img src={src} className="img-fluid rounded-start logo" alt="..."/>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span className="navbar-toggler-icon"></span>
       </button>
