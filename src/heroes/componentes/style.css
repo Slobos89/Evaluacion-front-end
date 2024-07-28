@@ -1,0 +1,29 @@
+.card {
+    max-width: 400px;
+    overflow: hidden;
+    border-color: black;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top: 15px;
+    
+}
+
